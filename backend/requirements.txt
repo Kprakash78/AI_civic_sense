@@ -1,0 +1,17 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+sqlalchemy==2.0.27
+pydantic==2.6.1
+pydantic-settings==2.1.0
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt
+python-multipart==0.0.9
+
+# ── ML dependencies (install when real models are ready) ──
+# These require Microsoft C++ Build Tools on Windows.
+# pip install scikit-learn==1.4.0 xgboost==2.0.3 shap==0.44.1
+
+# ── PostgreSQL driver (install when pg_config is available) ──
+# pip install psycopg2-binary==2.9.9
+# For local dev without PostgreSQL, SQLite is used automatically.
